@@ -763,9 +763,9 @@ img {
 .checkbox:checked + .icon-svg .icon-uncheck-svg {
 	opacity: 0;
 }
-/* .checkbox:focus +.icon-svg{
+.checkbox:focus +.icon-svg{
 	outline: 1px solid var(--grey-color);
-} */
+} 
 
 .form-group-agreement {
 	display: flex;
