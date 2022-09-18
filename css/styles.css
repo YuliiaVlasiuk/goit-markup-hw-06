@@ -164,6 +164,7 @@ img {
 	text-transform: uppercase;
 	width: 696px;
 	margin: 0 auto;
+	margin-bottom: 30px;
 }
 .hero {
 	background-color: var(--footer-hero-color);
@@ -230,7 +231,6 @@ img {
 	border-radius: 4px;
 	min-width: 216px;
 	padding: 10px 32px;
-	margin-top: 30px;
 	transition: background-color 250ms var(--timing-function);
 }
 .button:hover,
@@ -438,7 +438,7 @@ img {
 	color: var(--grey-color);
 	letter-spacing: 0.03em;
 	margin-bottom: 16px;
-	/*padding-bottom: 30px;*/
+	
 }
 .team {
 	display: flex;
@@ -549,6 +549,54 @@ img {
 	letter-spacing: 0.03em;
 	margin-bottom: 20px;
 }
+
+.email-send {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
+	color: var(--white-color);
+	margin-left: 12px;
+}
+
+.email-input {
+	padding: 15px 16px;
+	border-radius: 4px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	height: 50px;
+	width: 358px;
+	background-color: transparent;
+	outline: transparent;
+	margin-right: 12px;
+	color: var(--white-color) ;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.25;
+	letter-spacing: 0.03em;
+
+}
+
+.email-input::placeholder {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.25;
+	letter-spacing: 0.03em;
+	fill: rgba(255, 255, 255, 0.6);
+}
+
+.icon-send {
+	margin-left: 10px;
+	width: 24px;
+	height: 24px;
+}
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:row;
+
+}
+
 /**
   |============================
   | modal
@@ -604,14 +652,13 @@ img {
 	height: 18px;
 }
 
-.close{
+.close {
 	transition: fill 250ms var(--timing-function);
 }
 
-.modal-btn:hover >.close-img >.close{
-	fill:var(--blue-color);
+.modal-btn:hover > .close-img > .close {
+	fill: var(--blue-color);
 }
-
 
 /**
   |============================
@@ -686,11 +733,6 @@ img {
 	fill: var(--blue-color);
 }
 
-/* .form-input:hover,
-.form-input:focus
-{
-	border: 1px solid var(--blue-color);} */
-
 .submit-btn {
 	margin-top: 30px;
 	display: block;
@@ -698,26 +740,26 @@ img {
 	margin-right: auto;
 }
 
-.icon-svg{
+.icon-svg {
 	width: 16px;
 	height: 15px;
 	margin-right: 10px;
 }
 
-.icon-check-svg{
-   opacity: 0;
-   transition: opacity  250ms var(--timing-function);
-	
+.icon-check-svg {
+	opacity: 0;
+	transition: opacity 250ms var(--timing-function);
 }
 
 .icon-uncheck-svg {
-	opacity: 1;	
-	transition: opacity 250ms var(--timing-function);	} 
+	opacity: 1;
+	transition: opacity 250ms var(--timing-function);
+}
 
 .checkbox:checked + .icon-svg .icon-check-svg {
 	opacity: 1;
 }
-	 
+
 .checkbox:checked + .icon-svg .icon-uncheck-svg {
 	opacity: 0;
 }
@@ -728,17 +770,12 @@ img {
 .form-group-agreement {
 	display: flex;
 	align-items: center;
-} 
+}
 
-
-.polici{
+.polici {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--grey-color);
 }
-
-
-
-
