@@ -207,7 +207,7 @@
 		</main>
 		<footer class="footer">
 			<div class="container footer-container">
-				<div>
+				<div class="footer-contact">
 					<a href="./index.html" class="link">
 						<span class="logo">Web</span>
 						<span class="logo" style="color: var(--white-color)">Studio</span>
@@ -226,7 +226,7 @@
 						</ul>
 					</address>
 				</div>
-				<div>
+				<div class="comming">
 					<h3 class="footer-title">приєднуйтесь</h3>
 					<ul class="list web">
 						<li>
@@ -283,6 +283,18 @@
 						</li>
 					</ul>
 				</div>
+				<form>
+					<label class="footer-title" for="mail-send">Підпишіться на розсилку</label>
+					<div class="flex">
+						<input class="email-input" type="email" name="email-send" id="mail-send" required placeholder="E-mail" />
+						<button class="button" type="submit">
+							<span class="email-send">Підписатися</span>
+							<svg class="icon-send">
+								<use href="./images/icons.svg#icon-send"></use>
+							</svg>
+						</button>
+					</div>
+				</form>
 			</div>
 		</footer>
 	</body>

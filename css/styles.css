@@ -526,8 +526,14 @@ img {
 .footer-container {
 	display: flex;
 	align-items: baseline;
-	gap: 70px;
 }
+.footer-contact{
+	margin-right: 70px;
+}
+.comming{
+	margin-right: 93px;
+}
+
 .footer-icon {
 	display: flex;
 	justify-content: center;
@@ -547,7 +553,6 @@ img {
 }
 
 .footer-title {
-	margin-top: 0;
 	color: var(--white-color);
 	font-weight: 700;
 	font-size: 14px;
@@ -555,6 +560,7 @@ img {
 	text-transform: uppercase;
 	letter-spacing: 0.03em;
 	margin-bottom: 20px;
+	
 }
 
 .email-send {
@@ -563,8 +569,7 @@ img {
 	line-height: 1.88;
 	letter-spacing: 0.06em;
 	color: var(--white-color);
-	margin-left: 12px;
-}
+	}
 
 .email-input {
 	padding: 15px 16px;
@@ -597,11 +602,10 @@ img {
 	height: 24px;
 }
 .flex {
-	display: flex;
+	display:flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction:row;
-
+	margin-top: 20px;
 }
 
 /**
@@ -681,8 +685,7 @@ img {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 10px;
-
-	flex-direction: column;
+ 	flex-direction: column;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 1.17;
@@ -691,6 +694,13 @@ img {
 
 	position: relative;
 }
+
+.form-group:last-child{
+	margin-bottom: 20px;
+
+
+}
+
 .form-input {
 	padding: 11px 42px;
 	border-radius: 4px;
@@ -770,13 +780,17 @@ img {
 .checkbox:checked + .icon-svg .icon-uncheck-svg {
 	opacity: 0;
 }
-.checkbox:focus +.icon-svg{
+
+.checkbox:focus +.icon-svg
+{
 	outline: 1px solid var(--grey-color);
 } 
 
 .form-group-agreement {
 	display: flex;
 	align-items: center;
+	margin-top: 20px;
+	justify-content: center;
 }
 
 .polici {
